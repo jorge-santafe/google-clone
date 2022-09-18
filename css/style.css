@@ -1,6 +1,7 @@
 @import url('./body.css');
 @import url('./header.css');
 @import url('./main.css');
+@import url('./footer.css');
 :root{
     --gray-10:#F8F9FA;
     --gray-20:#F2F2F2;
