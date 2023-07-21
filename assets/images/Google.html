@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="es" data-lt-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Google</title>
+<link rel="stylesheet" href="./Google_files/index.css"></head>
+<body>
+    <header>
+        <nav class="header-navbar">
+            <ul class="navbar-menu">
+                <li><a href="http://127.0.0.1:5500/index.html">Gmail</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html">Imagenes</a></li>
+                <li><a class="icon-dot" href="http://127.0.0.1:5500/index.html"></a></li>
+                <li><a class="icon-profile" href="http://127.0.0.1:5500/index.html"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container-logo">
+            <a href="https://www.google.com/doodles/claude-shannons-100th-birthday">
+                <img class="logo" src="./Google_files/google-logo.gif" alt="google-logo" title="Google">
+            </a>
+        </section>
+        <section class="container-form">
+            <form action="http://127.0.0.1:5500/index.html">
+                <label class="container-search" for="search">
+                    <span class="icon-search"></span>
+                    <input type="text" name="search" id="search" placeholder=" Buscar cualquier cosa">
+                    <span class="icon-mic"></span>
+                </label>
+                <div class="container-buttons">
+                    <input type="submit" value="Buscar con Google">
+                    <input type="button" value="Voy a tener suerte">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>hola</p>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

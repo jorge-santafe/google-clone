@@ -1,0 +1,12 @@
+body{
+    font-family: var(--baseFont);
+    margin: 0;
+}
+.page{
+    block-size: 100vh;
+    display: grid;
+    grid-template-rows: 3rem 1fr;
+}
+.page main{
+    place-self: center;
+}

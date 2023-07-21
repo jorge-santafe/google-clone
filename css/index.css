@@ -1,0 +1,23 @@
+@import url('./page.css');
+@import url('./header.css');
+@import url('./main.css');
+@import url('./footer.css');
+:root{
+    --baseFont:Arial;
+    --lg: normal 1rem/1.375rem var(--baseFont);
+    --md: normal 0.875rem/1.6875rem var(--baseFont);
+    --mdNormal:normal 0.875rem/normal var(--baseFont);
+    --sm:normal 0.8125rem/1.5rem var(--baseFont);
+    --white:#FFFFFF;
+    --black:#000000;
+    --blue10:#ECF3FE;
+    --blue20:#4285F3;
+    --gray10:#F2F2F2; 
+    --gray20:#8BA2B0;
+    
+}
+body{
+    font-family: var(--baseFont);
+    margin: 0;
+}
+
